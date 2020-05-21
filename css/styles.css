@@ -243,32 +243,32 @@ ul li {
 }
 .about-us-details {
     float: left;
-    width: 46%;
+    width: 40%;
     padding: 20px 0px;
 }
 .about-us-img-odd {
     height: 65px;
     width: 65px;
-    padding-left: 40%;
+    padding-left: 25px;
 }
 .about-img-title-odd {
     font-size: 13px;
     font-weight: 600;
-    padding-left: 35%;
-    width: 25%;
+    width: 70%;
     text-align: center;
+    padding-left: 0px;
 }
 .about-us-img-even {
     height: 65px;
     width: 65px;
-    padding-left: 10%;
+    padding-left: 20px;
 }
 .about-img-title-even {
     font-size: 13px;
     font-weight: 600;
-    padding-left: 5%;
-    width: 25%;
+    width: 60%;
     text-align: center;
+    margin-top: 5px;
 }
 .abouts-us-tagline {
     margin-top: 0px;
@@ -283,6 +283,28 @@ ul li {
     font-size: 11px; 
     padding-left: 15px;
 }
+.screenshot {
+    max-width: 100%;
+    height: 839px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: left;
+}
+
+.column {
+    float: left;
+    padding-bottom: 20px;
+    width: 40%;
+    height: 300px; ;/* Should be removed. Only for demonstration */
+}
+    
+    /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* .iEsign-label {
     z-index: 2;
 }
